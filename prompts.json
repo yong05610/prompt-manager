@@ -8,14 +8,6 @@
     "favorite": true
   },
   {
-    "id": 2,
-    "title": "dkssud",
-    "content": "sdfsd",
-    "category": "aaa",
-    "created_at": "2026-08-17 13:23:53",
-    "favorite": false
-  },
-  {
     "id": 3,
     "title": "fdgdf",
     "content": "fgdhhdhdfhdfhdfh",
@@ -38,5 +30,13 @@
     "category": "실행",
     "favorite": false,
     "created_at": "2026-08-20 15:37:19"
+  },
+  {
+    "id": 8,
+    "title": "미션의 단계적 수행 가이드",
+    "content": "아까 읽어드린 미션을 너의 도움을 받아 수행 하고 최종 결과( 환경 구축, 미션의 목표달성, 리포트작성) 를  얻어야해.\n그러기 위해서는  이 스레드 진행기간동안  미션전문을 네가기억하고 참조해야해 과정을 하나도 빠짐없이 수행하려면 \n그러기 (네기억을 이미션종료시 까지 기억) 위해서  네가 할일을 정해서 나와 수행하고\n리포트 작성 템플릿도 만들어줘",
+    "category": "미션수행 도우미",
+    "favorite": false,
+    "created_at": "2026-08-21 15:11:34"
   }
 ]

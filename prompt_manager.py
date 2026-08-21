@@ -24,10 +24,21 @@ def ensure_favorite_field(prompts):
     if changed:                      # 하나라도 바뀌었으면
         save_prompts(prompts)        # 파일에 저장     
 
+def input_multiline(prompt):
+    """여러 줄 입력을 받는 함수 (빈 줄에서 엔터 치면 종료)"""
+    print(prompt + " (입력 종료: 빈 줄에서 엔터)")
+    lines = []
+    while True:
+        line = input()
+        if line == "":       # 빈 줄이면 입력 끝
+            break
+        lines.append(line)
+    return "\n".join(lines)  # 줄바꿈 유지하며 하나로 합침
+
 def add_prompt(prompts):
     print("\n=== 프롬프트 추가 ===")
     title = input("제목: ").strip()
-    content = input("내용: ").strip()
+    content = input_multiline("내용:").strip()
     category = input("카테고리: ").strip()
 
     if not title or not content:
